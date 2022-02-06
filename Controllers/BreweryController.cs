@@ -30,7 +30,7 @@ namespace OpenBreweryAPI.Controllers
             return brewery;
         }
 
-        // POST api/<Brewery>
+        // POST api/<Brewery> 
         [HttpPost]
         public void Post([FromBody] string value)
         {
